@@ -1,171 +1,78 @@
 # Docklands Creative – WordPress Setup
 
-## 1. Development Environment
+## Purpose
 
-The Docklands Creative website is being developed using a local WordPress
-environment.
+This stage documents the WordPress implementation environment used to
+translate the approved Figma design into a functional website.
 
-The local development environment allows the website to be built and tested
-without immediately deploying changes to a live server.
+## Local Development Environment
 
----
+The website is being developed locally using Local by WP Engine.
 
-## 2. Local Development Tool
+### Site Details
 
-Local by WP Engine is being used to create and manage the local WordPress
-installation.
-
-The local site is:
-
-Docklands Creative
-
-Local domain:
-
-docklands-creative.local
-
----
-
-## 3. WordPress Environment
-
-The local installation was created using the preferred environment settings.
-
-Development environment:
-
-- Web server: nginx
-- PHP: 8.2.29
+- Site Name: Docklands Creative
+- Local Domain: docklands-creative.local
+- CMS: WordPress
+- Web Server: nginx
+- PHP Version: 8.2.29
 - Database: MySQL 8.4.0
-- WordPress: 7.1
+- WordPress Version: 7.1
 
-These settings provide the local environment required for development and
-testing.
+## Development Approach
 
----
+The WordPress implementation will be developed locally before deployment.
 
-## 4. Local Site Structure
+The approved Figma design provides the visual reference for:
 
-The WordPress installation contains the standard WordPress structure,
-including:
+- Layout
+- Typography
+- Colour system
+- Navigation
+- Hero section
+- Services
+- Portfolio/projects
+- About/value proposition
+- Process
+- Client testimonial
+- Insights
+- Call-to-action
+- Footer
 
-- wp-admin
-- wp-content
-- wp-includes
+## Implementation Strategy
 
-Custom development will primarily take place within the theme structure
-inside:
+The website will be developed as a customised WordPress implementation
+rather than relying entirely on a pre-built visual template.
 
-wp-content/themes/
+The development process will follow:
 
----
-
-## 5. Custom Theme Approach
-
-The website will use a dedicated custom theme rather than modifying a
-default WordPress theme directly.
-
-This approach allows the Docklands Creative design to be implemented according
-to the approved Figma system.
-
-The custom theme will contain:
-
-- Template files
-- Stylesheets
-- JavaScript
-- Theme configuration
-- Reusable components
-- Image assets
-
----
-
-## 6. Development Workflow
-
-The development workflow is:
-
-Figma
+Figma Design
 ↓
-WordPress
+WordPress Structure
 ↓
-Custom Theme
+Theme Development
 ↓
-Local Testing
+Landing Page
 ↓
-Git
+Internal Pages
 ↓
-GitHub
+Responsive Testing
 ↓
 Final Website
 
-The Figma design acts as the visual reference while WordPress provides the
-content management and website structure.
+## Local Development
 
----
+The website is currently running through Local and can be accessed through
+the local development domain.
 
-## 7. GitHub Integration
+The local environment allows the design and functionality to be tested
+without affecting a live website.
 
-The project source code and development documentation are maintained in the
-GitHub repository:
+## Version Control
 
-docklands-creative-website
+The WordPress development work will be documented within the GitHub
+repository.
 
-Git is used to record development changes through structured commits.
-
-Examples of project documentation commits include:
-
-- Research documentation
-- Competitor benchmarking
-- Figma design rationale
-- Responsive design documentation
-- WordPress setup
-- Theme development
-- Final website implementation
-
----
-
-## 8. Development Principles
-
-The WordPress implementation will prioritise:
-
-- Figma design fidelity
-- Responsive behaviour
-- Accessibility
-- Maintainable code
-- Reusable components
-- Clear file organisation
-- Performance
-- Easy future maintenance
-
----
-
-## 9. Development Starting Point
-
-The first implementation target is the Docklands Creative landing page.
-
-The landing page will be developed section by section based on the approved
-Figma design.
-
-The implementation sequence will be:
-
-1. Theme foundation
-2. Global styles
-3. Header/navigation
-4. Hero
-5. Trusted brands
-6. Services
-7. Projects
-8. Value proposition
-9. Process
-10. Testimonial
-11. Insights
-12. Final CTA
-13. Footer
-14. Responsive optimisation
-
----
-
-## 10. Next Development Stage
-
-Following the environment setup, the project will move into custom theme
-development.
-
-The objective is to reproduce the approved Docklands Creative landing page
-within the local WordPress installation before developing the remaining
-internal pages.
+Changes will be committed progressively so that the project history
+demonstrates the development process from research through final
+implementation.
